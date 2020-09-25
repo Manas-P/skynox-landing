@@ -116,17 +116,17 @@ body {
   top: 50%;
   -webkit-transform: translateY(-30%);
           transform: translateY(-30%);
-  padding-left: 175px;
+  padding-left: 9.114583333333334vw;
   font-family: "PoppinsB";
-  font-size: 50px;
-  line-height: 90px;
+  font-size: 2.6041666666666665vw;
+  line-height: 4.6875vw;
   color: #312f2f;
 }
 
 #hero .content .contentItalic {
   font-family: "PoppinsBI";
   color: #ffe600;
-  font-size: 65px;
+  font-size: 3.3854166666666665vw;
 }
 
 .headerActive {
