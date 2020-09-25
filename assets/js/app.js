@@ -3,5 +3,5 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "heroAnimation.json",
+  path: "./assets/animations/heroAnimation.json",
 });
