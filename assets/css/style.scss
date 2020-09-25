@@ -4,6 +4,13 @@ $blue: #736ced;
 $pink: #f9637c;
 $black: #312f2f;
 
+//Mixins
+@mixin flex() {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
 //Fonts
 @font-face {
   font-family: "PoppinsR";
@@ -41,14 +48,12 @@ body {
     position: fixed;
     top: 0;
     z-index: 1;
-    display: flex;
-    align-items: center;
+    @include flex();
     padding: 0 150px;
     transition: 0.3s ease;
     .logo {
       flex: 2;
-      display: flex;
-      align-items: center;
+      @include flex();
       img {
         width: 60px;
       }
@@ -61,7 +66,7 @@ body {
     nav {
       justify-content: flex-end;
       ul {
-        display: flex;
+        @include flex();
         li {
           list-style: none;
           padding-left: 130px;
