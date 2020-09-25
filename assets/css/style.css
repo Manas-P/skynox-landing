@@ -13,6 +13,11 @@
   src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: "PoppinsBI";
+  src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -35,7 +40,7 @@ body {
   height: 10vh;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +108,25 @@ body {
 
 #hero header nav ul li a:hover {
   color: #ffe600;
+}
+
+#hero .content {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+  padding-left: 175px;
+  font-family: "PoppinsB";
+  font-size: 50px;
+  line-height: 90px;
+  color: #312f2f;
+}
+
+#hero .content .contentItalic {
+  font-family: "PoppinsBI";
+  color: #ffe600;
+  font-size: 65px;
 }
 
 .headerActive {
