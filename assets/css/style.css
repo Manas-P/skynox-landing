@@ -43,16 +43,30 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 150px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #hero header .logo {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #hero header .logo img {
   width: 60px;
+}
+
+#hero header .logo .compName {
+  font-family: "PoppinsB";
+  font-size: 30px;
+  padding-left: 20px;
 }
 
 #hero header nav {
@@ -68,17 +82,28 @@ body {
 }
 
 #hero header nav ul li {
+  list-style: none;
+  padding-left: 130px;
+}
+
+#hero header nav ul li a {
   cursor: pointer;
   font-family: "PoppinsB";
   font-size: 20px;
-  color: #dfdfdf;
-  list-style: none;
-  padding-left: 130px;
+  color: #fcfafa;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-#hero header nav ul li:hover {
+#hero header nav ul li a:hover {
   color: #ffe600;
+}
+
+.headerActive {
+  background: #736ced;
+}
+
+.compNameAct {
+  color: #fcfafa;
 }
 /*# sourceMappingURL=style.css.map */

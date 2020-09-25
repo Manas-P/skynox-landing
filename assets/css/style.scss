@@ -1,6 +1,7 @@
 $bgColor: #fcfafa;
 $yellow: #ffe600;
 $blue: #736ced;
+$pink: #f9637c;
 $black: #312f2f;
 
 //Fonts
@@ -43,10 +44,18 @@ body {
     display: flex;
     align-items: center;
     padding: 0 150px;
+    transition: 0.3s ease;
     .logo {
       flex: 2;
+      display: flex;
+      align-items: center;
       img {
         width: 60px;
+      }
+      .compName {
+        font-family: "PoppinsB";
+        font-size: 30px;
+        padding-left: 20px;
       }
     }
     nav {
@@ -54,18 +63,26 @@ body {
       ul {
         display: flex;
         li {
-          cursor: pointer;
-          font-family: "PoppinsB";
-          font-size: 20px;
-          color: #dfdfdf;
           list-style: none;
           padding-left: 130px;
-          transition: 0.3s;
-          &:hover {
-            color: $yellow;
+          a {
+            cursor: pointer;
+            font-family: "PoppinsB";
+            font-size: 20px;
+            color: $bgColor;
+            transition: 0.3s;
+            &:hover {
+              color: $yellow;
+            }
           }
         }
       }
     }
   }
+}
+.headerActive {
+  background: $blue;
+}
+.compNameAct {
+  color: $bgColor;
 }
