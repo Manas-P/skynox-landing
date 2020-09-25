@@ -49,18 +49,18 @@ body {
     top: 0;
     z-index: 1;
     @include flex();
-    padding: 0 150px;
+    padding: 0 7.8125vw;
     transition: 0.3s ease;
     .logo {
       flex: 2;
       @include flex();
       img {
-        width: 60px;
+        width: 3.125vw;
       }
       .compName {
         font-family: "PoppinsB";
-        font-size: 30px;
-        padding-left: 20px;
+        font-size: 1.5625vw;
+        padding-left: 1.0416666666666667vw;
       }
     }
     nav {
@@ -69,11 +69,11 @@ body {
         @include flex();
         li {
           list-style: none;
-          padding-left: 130px;
+          padding-left: 6.770833333333333vw;
           a {
             cursor: pointer;
             font-family: "PoppinsB";
-            font-size: 20px;
+            font-size: 1.0416666666666667vw;
             color: $bgColor;
             transition: 0.3s;
             &:hover {

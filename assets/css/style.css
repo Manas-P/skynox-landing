@@ -43,7 +43,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  padding: 0 150px;
+  padding: 0 7.8125vw;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -62,13 +62,13 @@ body {
 }
 
 #hero header .logo img {
-  width: 60px;
+  width: 3.125vw;
 }
 
 #hero header .logo .compName {
   font-family: "PoppinsB";
-  font-size: 30px;
-  padding-left: 20px;
+  font-size: 1.5625vw;
+  padding-left: 1.0416666666666667vw;
 }
 
 #hero header nav {
@@ -89,13 +89,13 @@ body {
 
 #hero header nav ul li {
   list-style: none;
-  padding-left: 130px;
+  padding-left: 6.770833333333333vw;
 }
 
 #hero header nav ul li a {
   cursor: pointer;
   font-family: "PoppinsB";
-  font-size: 20px;
+  font-size: 1.0416666666666667vw;
   color: #fcfafa;
   -webkit-transition: 0.3s;
   transition: 0.3s;
