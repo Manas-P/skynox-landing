@@ -24,4 +24,13 @@
     top: 105%;
   }
 }
+
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  #hero .content {
+    top: 45%;
+  }
+  #hero .heroQuote {
+    top: 120%;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
