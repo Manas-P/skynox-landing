@@ -283,7 +283,7 @@ body {
   color: #fcfafa;
 }
 
-.container2 .content {
+.service .content {
   padding: 200px 0 200px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -301,31 +301,45 @@ body {
           flex-direction: column;
 }
 
-.container2 .content .heading {
+.service .content .heading {
   font-size: 80px;
   text-align: center;
   color: #312f2f;
   font-family: "PoppinsB";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-.container2 .content .heading .typing {
+.service .content .heading .typing {
   font-family: "PoppinsB";
   color: #56cbf9;
 }
 
-.container2 .content button {
-  height: 65px;
-  width: 255px;
+.service .content button {
+  height: 75px;
+  padding: 0 45px 0 45px;
   color: #fcfafa;
   background: #f9637c;
-  -webkit-box-shadow: 0px 5px 12px rgba(249, 99, 124, 0.38);
-          box-shadow: 0px 5px 12px rgba(249, 99, 124, 0.38);
+  -webkit-box-shadow: 0px 6px 15px rgba(249, 99, 124, 0.47);
+          box-shadow: 0px 6px 15px rgba(249, 99, 124, 0.47);
   border-radius: 20px;
   border: none;
   outline: none;
-  margin-top: 55px;
+  margin-top: 50px;
   font-size: 20px;
   font-family: "PoppinsB";
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.service .content button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #ff5370;
 }
 /*# sourceMappingURL=style.css.map */
