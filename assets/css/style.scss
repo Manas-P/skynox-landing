@@ -189,6 +189,8 @@ body {
 
 .container2 {
   .content {
+    padding: 200px 0 200px 0;
+    @include flex(column, center, center, center);
     .heading {
       font-size: 80px;
       text-align: center;
@@ -198,6 +200,20 @@ body {
         font-family: "PoppinsB";
         color: $cyan;
       }
+    }
+    button {
+      height: 65px;
+      width: 255px;
+      color: $bgColor;
+      background: $pink;
+      box-shadow: 0px 5px 12px rgba(249, 99, 124, 0.38);
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      margin-top: 55px;
+      font-size: 20px;
+      font-family: "PoppinsB";
+      cursor: pointer;
     }
   }
 }

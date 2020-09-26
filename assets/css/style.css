@@ -283,6 +283,24 @@ body {
   color: #fcfafa;
 }
 
+.container2 .content {
+  padding: 200px 0 200px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .container2 .content .heading {
   font-size: 80px;
   text-align: center;
@@ -293,5 +311,21 @@ body {
 .container2 .content .heading .typing {
   font-family: "PoppinsB";
   color: #56cbf9;
+}
+
+.container2 .content button {
+  height: 65px;
+  width: 255px;
+  color: #fcfafa;
+  background: #f9637c;
+  -webkit-box-shadow: 0px 5px 12px rgba(249, 99, 124, 0.38);
+          box-shadow: 0px 5px 12px rgba(249, 99, 124, 0.38);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-top: 55px;
+  font-size: 20px;
+  font-family: "PoppinsB";
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
