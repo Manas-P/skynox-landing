@@ -284,88 +284,100 @@ body {
 }
 
 .service img:nth-child(1) {
-  width: 75px;
+  width: 3.90625vw;
   height: auto;
   position: absolute;
   left: none;
   right: 25%;
-  padding-top: 10px;
+  padding-top: 0.52083vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-animation: interaction ease-in-out 3s infinite;
           animation: interaction ease-in-out 3s infinite;
 }
 
 @-webkit-keyframes interaction {
   0% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
   50% {
-    margin-top: 20px;
+    margin-top: 1.04167vw;
   }
   100% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
 }
 
 @keyframes interaction {
   0% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
   50% {
-    margin-top: 20px;
+    margin-top: 1.04167vw;
   }
   100% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
 }
 
 .service img:nth-child(2) {
-  width: 125px;
+  width: 6.51042vw;
   height: auto;
   position: absolute;
   left: 15%;
   right: none;
-  padding-top: 200px;
+  padding-top: 10.41667vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-animation: interaction ease-in-out 3.5s infinite;
           animation: interaction ease-in-out 3.5s infinite;
 }
 
 @keyframes interaction {
   0% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
   50% {
-    margin-top: 50px;
+    margin-top: 2.60417vw;
   }
   100% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
 }
 
 .service img:nth-child(3) {
-  width: 70px;
+  width: 3.64583vw;
   height: auto;
   position: absolute;
   left: none;
   right: 20%;
-  padding-top: 500px;
+  padding-top: 26.04167vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -webkit-animation: interaction ease-in-out 4s infinite;
           animation: interaction ease-in-out 4s infinite;
 }
 
 @keyframes interaction {
   0% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
   50% {
-    margin-top: 50px;
+    margin-top: 2.60417vw;
   }
   100% {
-    margin-top: 10px;
+    margin-top: 0.52083vw;
   }
 }
 
 .service .content {
-  padding: 200px 0 200px 0;
+  padding: 10.416666666666666vw 0 10.416666666666666vw 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,7 +395,7 @@ body {
 }
 
 .service .content .heading {
-  font-size: 80px;
+  font-size: 4.166666666666667vw;
   text-align: center;
   color: #312f2f;
   font-family: "PoppinsB";
@@ -399,17 +411,17 @@ body {
 }
 
 .service .content button {
-  height: 75px;
-  padding: 0 45px 0 45px;
+  height: 3.90625vw;
+  padding: 0 2.34375vw 0 2.34375vw;
   color: #fcfafa;
   background: #f9637c;
-  -webkit-box-shadow: 0px 6px 15px rgba(249, 99, 124, 0.47);
-          box-shadow: 0px 6px 15px rgba(249, 99, 124, 0.47);
-  border-radius: 20px;
+  -webkit-box-shadow: 0px 0.3125vw 0.78125vw rgba(249, 99, 124, 0.47);
+          box-shadow: 0px 0.3125vw 0.78125vw rgba(249, 99, 124, 0.47);
+  border-radius: 1.0416666666666667vw;
   border: none;
   outline: none;
-  margin-top: 50px;
-  font-size: 20px;
+  margin-top: 2.6041666666666665vw;
+  font-size: 1.0416666666666667vw;
   font-family: "PoppinsB";
   cursor: pointer;
   -webkit-transition: 0.2s;

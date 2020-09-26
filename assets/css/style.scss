@@ -37,6 +37,7 @@ $black: #312f2f;
   left: $left;
   right: $right;
   padding-top: $top;
+  user-select: none;
 }
 
 //Fonts
@@ -213,25 +214,25 @@ body {
 
 .service {
   img:nth-child(1) {
-    @include serviceSvg(75px, none, 25%, 10px);
-    @include animate(10px, 20px);
+    @include serviceSvg(3.90625vw, none, 25%, 0.5208333333333334vw);
+    @include animate(0.5208333333333334vw, 1.0416666666666667vw);
     animation: interaction ease-in-out 3s infinite;
   }
   img:nth-child(2) {
-    @include serviceSvg(125px, 15%, none, 200px);
-    @include animate(10px, 50px);
+    @include serviceSvg(6.510416666666667vw, 15%, none, 10.416666666666666vw);
+    @include animate(0.5208333333333334vw, 2.6041666666666665vw);
     animation: interaction ease-in-out 3.5s infinite;
   }
   img:nth-child(3) {
-    @include serviceSvg(70px, none, 20%, 500px);
-    @include animate(10px, 50px);
+    @include serviceSvg(3.6458333333333335vw, none, 20%, 26.041666666666668vw);
+    @include animate(0.5208333333333334vw, 2.6041666666666665vw);
     animation: interaction ease-in-out 4s infinite;
   }
   .content {
-    padding: 200px 0 200px 0;
+    padding: 10.416666666666666vw 0 10.416666666666666vw 0;
     @include flex(column, center, center, center);
     .heading {
-      font-size: 80px;
+      font-size: 4.166666666666667vw;
       text-align: center;
       color: $black;
       font-family: "PoppinsB";
@@ -242,16 +243,16 @@ body {
       }
     }
     button {
-      height: 75px;
-      padding: 0 45px 0 45px;
+      height: 3.90625vw;
+      padding: 0 2.34375vw 0 2.34375vw;
       color: $bgColor;
       background: $pink;
-      box-shadow: 0px 6px 15px rgba(249, 99, 124, 0.47);
-      border-radius: 20px;
+      box-shadow: 0px 0.3125vw 0.78125vw rgba(249, 99, 124, 0.47);
+      border-radius: 1.0416666666666667vw;
       border: none;
       outline: none;
-      margin-top: 50px;
-      font-size: 20px;
+      margin-top: 2.6041666666666665vw;
+      font-size: 1.0416666666666667vw;
       font-family: "PoppinsB";
       cursor: pointer;
       transition: 0.2s;
