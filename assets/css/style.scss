@@ -115,7 +115,6 @@ body {
     font-size: 2.6041666666666665vw;
     line-height: 4.6875vw;
     color: $black;
-    user-select: none;
     .contentItalic {
       font-family: "PoppinsBI";
       color: $yellow;
@@ -129,7 +128,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
     @include flex(column, center, center, center);
-    user-select: none;
     .heading {
       font-size: 3.6458333333333335vw;
       font-family: "PoppinsB";
@@ -142,11 +140,13 @@ body {
         margin: -11.71875vw 2.0833333333333335vw 0 0;
         height: auto;
         width: 4.427083333333333vw;
+        user-select: none;
       }
       .qR {
         margin: 11.71875vw 0 0 2.0833333333333335vw;
         height: auto;
         width: 4.427083333333333vw;
+        user-select: none;
       }
       .qContent {
         display: flex;

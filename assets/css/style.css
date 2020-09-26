@@ -160,10 +160,6 @@ body {
   font-size: 2.6041666666666665vw;
   line-height: 4.6875vw;
   color: #312f2f;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 #hero .content .contentItalic {
@@ -193,10 +189,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 #hero .heroQuote .heading {
@@ -227,12 +219,20 @@ body {
   margin: -11.71875vw 2.0833333333333335vw 0 0;
   height: auto;
   width: 4.427083333333333vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #hero .heroQuote .quote .qR {
   margin: 11.71875vw 0 0 2.0833333333333335vw;
   height: auto;
   width: 4.427083333333333vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #hero .heroQuote .quote .qContent {
