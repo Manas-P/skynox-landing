@@ -122,7 +122,7 @@ body {
   .heroQuote {
     z-index: 1;
     position: absolute;
-    top: 150%;
+    top: 140%;
     left: 50%;
     transform: translateX(-50%);
     @include flex(column, center, center, center);
