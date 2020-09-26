@@ -6,10 +6,11 @@ $pink: #f9637c;
 $black: #312f2f;
 
 //Mixins
-@mixin flex() {
+@mixin flex($dir) {
   display: flex;
   align-items: center;
   justify-items: center;
+  flex-direction: $dir;
 }
 
 //Fonts
@@ -54,12 +55,12 @@ body {
     position: fixed;
     top: 0;
     z-index: 2;
-    @include flex();
+    @include flex(row);
     padding: 0 7.8125vw;
     transition: 0.3s ease;
     .logo {
       flex: 2;
-      @include flex();
+      @include flex(row);
       img {
         width: 3.125vw;
       }
@@ -72,7 +73,7 @@ body {
     nav {
       justify-content: flex-end;
       ul {
-        @include flex();
+        @include flex(row);
         li {
           list-style: none;
           padding-left: 6.770833333333333vw;
@@ -106,6 +107,14 @@ body {
       color: $yellow;
       font-size: 3.3854166666666665vw;
     }
+  }
+  .heroQuote {
+    z-index: 1;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    @include flex(column);
   }
 }
 .headerActive {

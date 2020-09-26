@@ -48,6 +48,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 0 7.8125vw;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -64,6 +68,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #hero header .logo img {
@@ -90,6 +98,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #hero header nav ul li {
@@ -127,6 +139,26 @@ body {
   font-family: "PoppinsBI";
   color: #ffe600;
   font-size: 3.3854166666666665vw;
+}
+
+#hero .heroQuote {
+  z-index: 1;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .headerActive {
