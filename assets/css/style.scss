@@ -74,11 +74,13 @@ body {
       @include flex(row, center, center, flex-start);
       img {
         width: 3.125vw;
+        user-select: none;
       }
       .compName {
         font-family: "PoppinsB";
         font-size: 1.5625vw;
         padding-left: 1.0416666666666667vw;
+        user-select: none;
       }
     }
     nav {
@@ -113,6 +115,7 @@ body {
     font-size: 2.6041666666666665vw;
     line-height: 4.6875vw;
     color: $black;
+    user-select: none;
     .contentItalic {
       font-family: "PoppinsBI";
       color: $yellow;
@@ -126,6 +129,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     @include flex(column, center, center, center);
+    user-select: none;
     .heading {
       font-size: 3.6458333333333335vw;
       font-family: "PoppinsB";

@@ -92,12 +92,20 @@ body {
 
 #hero header .logo img {
   width: 3.125vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #hero header .logo .compName {
   font-family: "PoppinsB";
   font-size: 1.5625vw;
   padding-left: 1.0416666666666667vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #hero header nav {
@@ -152,6 +160,10 @@ body {
   font-size: 2.6041666666666665vw;
   line-height: 4.6875vw;
   color: #312f2f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #hero .content .contentItalic {
@@ -181,6 +193,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #hero .heroQuote .heading {
