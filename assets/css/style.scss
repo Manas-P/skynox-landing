@@ -3,6 +3,7 @@ $bgColor: #fcfafa;
 $yellow: #ffe600;
 $blue: #736ced;
 $pink: #f9637c;
+$cyan: #56cbf9;
 $black: #312f2f;
 
 //Mixins
@@ -41,8 +42,18 @@ $black: #312f2f;
 }
 
 @font-face {
+  font-family: "PoppinsBL";
+  src: url(../fonts/Poppins-Black.ttf);
+}
+
+@font-face {
   font-family: "PoppinsEB";
   src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsSB";
+  src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
 //Basic Layout
@@ -174,4 +185,19 @@ body {
 }
 .compNameAct {
   color: $bgColor;
+}
+
+.container2 {
+  .content {
+    .heading {
+      font-size: 80px;
+      text-align: center;
+      color: $black;
+      font-family: "PoppinsB";
+      .typing {
+        font-family: "PoppinsB";
+        color: $cyan;
+      }
+    }
+  }
 }

@@ -24,8 +24,18 @@
 }
 
 @font-face {
+  font-family: "PoppinsBL";
+  src: url(../fonts/Poppins-Black.ttf);
+}
+
+@font-face {
   font-family: "PoppinsEB";
   src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsSB";
+  src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
 * {
@@ -271,5 +281,17 @@ body {
 
 .compNameAct {
   color: #fcfafa;
+}
+
+.container2 .content .heading {
+  font-size: 80px;
+  text-align: center;
+  color: #312f2f;
+  font-family: "PoppinsB";
+}
+
+.container2 .content .heading .typing {
+  font-family: "PoppinsB";
+  color: #56cbf9;
 }
 /*# sourceMappingURL=style.css.map */

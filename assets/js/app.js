@@ -20,3 +20,18 @@ window.onscroll = function () {
     compName.classList.remove("compNameAct");
   }
 };
+
+//Typewriter
+var typed = new Typed(".typing", {
+  strings: [
+    "Web Apps",
+    "Mobile Apps",
+    "Enterprise Solutions",
+    "User Interfaces",
+  ],
+  typeSpeed: 60,
+  backSpeed: 60,
+  backDelay: 1000,
+  showCursor: false,
+  loop: true,
+});
