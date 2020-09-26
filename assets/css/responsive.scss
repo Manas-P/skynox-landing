@@ -9,3 +9,15 @@
     }
   }
 }
+
+//Screen 1500px
+@media screen and (max-width: 1500px) {
+  #hero {
+    .content {
+      top: 42%;
+    }
+    .heroQuote {
+      top: 110%;
+    }
+  }
+}

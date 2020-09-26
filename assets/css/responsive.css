@@ -6,4 +6,13 @@
     top: 120%;
   }
 }
+
+@media screen and (max-width: 1500px) {
+  #hero .content {
+    top: 42%;
+  }
+  #hero .heroQuote {
+    top: 110%;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
