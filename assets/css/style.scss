@@ -213,7 +213,7 @@ body {
 
 .service {
   img:nth-child(1) {
-    @include serviceSvg(75px, none, 20%, 10px);
+    @include serviceSvg(75px, none, 25%, 10px);
     @include animate(10px, 20px);
     animation: interaction ease-in-out 3s infinite;
   }
@@ -221,6 +221,11 @@ body {
     @include serviceSvg(125px, 15%, none, 200px);
     @include animate(10px, 50px);
     animation: interaction ease-in-out 3.5s infinite;
+  }
+  img:nth-child(3) {
+    @include serviceSvg(70px, none, 20%, 500px);
+    @include animate(10px, 50px);
+    animation: interaction ease-in-out 4s infinite;
   }
   .content {
     padding: 200px 0 200px 0;

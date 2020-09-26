@@ -288,7 +288,7 @@ body {
   height: auto;
   position: absolute;
   left: none;
-  right: 20%;
+  right: 25%;
   padding-top: 10px;
   -webkit-animation: interaction ease-in-out 3s infinite;
           animation: interaction ease-in-out 3s infinite;
@@ -327,6 +327,29 @@ body {
   padding-top: 200px;
   -webkit-animation: interaction ease-in-out 3.5s infinite;
           animation: interaction ease-in-out 3.5s infinite;
+}
+
+@keyframes interaction {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+.service img:nth-child(3) {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: none;
+  right: 20%;
+  padding-top: 500px;
+  -webkit-animation: interaction ease-in-out 4s infinite;
+          animation: interaction ease-in-out 4s infinite;
 }
 
 @keyframes interaction {
