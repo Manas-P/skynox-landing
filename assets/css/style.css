@@ -283,6 +283,40 @@ body {
   color: #fcfafa;
 }
 
+.service img:nth-child(1) {
+  width: 75px;
+  height: auto;
+  position: absolute;
+  right: 20%;
+  margin-top: 10px;
+  -webkit-animation: interaction ease-in-out 2.5s infinite;
+          animation: interaction ease-in-out 2.5s infinite;
+}
+
+@-webkit-keyframes interaction {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: 25px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+@keyframes interaction {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: 25px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
 .service .content {
   padding: 200px 0 200px 0;
   display: -webkit-box;
