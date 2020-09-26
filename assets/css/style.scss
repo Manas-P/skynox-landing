@@ -6,39 +6,8 @@ $pink: #f9637c;
 $cyan: #56cbf9;
 $black: #312f2f;
 
-//Mixins
-//Flex
-@mixin flex($dir, $align, $justifyI, $justifyC) {
-  display: flex;
-  align-items: $align;
-  justify-items: $justifyI;
-  justify-content: $justifyC;
-  flex-direction: $dir;
-}
-//Animation
-@mixin animate($current, $to) {
-  @keyframes interaction {
-    0% {
-      margin-top: $current;
-    }
-    50% {
-      margin-top: $to;
-    }
-    100% {
-      margin-top: $current;
-    }
-  }
-}
-//Service Section SVGs
-@mixin serviceSvg($width, $left, $right, $top) {
-  width: $width;
-  height: auto;
-  position: absolute;
-  left: $left;
-  right: $right;
-  padding-top: $top;
-  user-select: none;
-}
+//Imports
+@import "./mixins.scss";
 
 //Fonts
 @font-face {
