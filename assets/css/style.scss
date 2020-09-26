@@ -6,10 +6,11 @@ $pink: #f9637c;
 $black: #312f2f;
 
 //Mixins
-@mixin flex($dir) {
+@mixin flex($dir, $align, $justifyI, $justifyC) {
   display: flex;
-  align-items: center;
-  justify-items: center;
+  align-items: $align;
+  justify-items: $justifyI;
+  justify-content: $justifyC;
   flex-direction: $dir;
 }
 
@@ -17,6 +18,11 @@ $black: #312f2f;
 @font-face {
   font-family: "PoppinsR";
   src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsI";
+  src: url(../fonts/Poppins-Italic.ttf);
 }
 
 @font-face {
@@ -32,6 +38,11 @@ $black: #312f2f;
 @font-face {
   font-family: "PoppinsBI";
   src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsEB";
+  src: url(../fonts/Poppins-ExtraBold.ttf);
 }
 
 //Basic Layout
@@ -55,12 +66,12 @@ body {
     position: fixed;
     top: 0;
     z-index: 2;
-    @include flex(row);
+    @include flex(row, center, center, center);
     padding: 0 7.8125vw;
     transition: 0.3s ease;
     .logo {
       flex: 2;
-      @include flex(row);
+      @include flex(row, center, center, flex-start);
       img {
         width: 3.125vw;
       }
@@ -73,7 +84,7 @@ body {
     nav {
       justify-content: flex-end;
       ul {
-        @include flex(row);
+        @include flex(row, center, center, center);
         li {
           list-style: none;
           padding-left: 6.770833333333333vw;
@@ -114,7 +125,44 @@ body {
     top: 150%;
     left: 50%;
     transform: translateX(-50%);
-    @include flex(column);
+    @include flex(column, center, center, center);
+    .heading {
+      font-size: 70px;
+      font-family: "PoppinsB";
+      color: $bgColor;
+      margin-bottom:50px;
+    }
+    .quote {
+      @include flex(row, center, center, center);
+      .qL {
+        margin: -225px 40px 0 0;
+        height: auto;
+        width: 85px;
+      }
+      .qR {
+        margin: 225px  0 0 40px;
+        height: auto;
+        width: 85px;
+      }
+      .qContent {
+        display: flex;
+        flex-direction: column;
+        .para {
+          text-align: center;
+          color: $bgColor;
+          font-size: 24px;
+          font-family: "PoppinsI";
+        }
+        .person {
+          display: flex;
+          justify-content: flex-end;
+          color: $bgColor;
+          font-size: 18px;
+          font-family: "PoppinsB";
+          margin-top: 10px;
+        }
+      }
+    }
   }
 }
 .headerActive {
