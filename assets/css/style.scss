@@ -127,22 +127,22 @@ body {
     transform: translateX(-50%);
     @include flex(column, center, center, center);
     .heading {
-      font-size: 70px;
+      font-size: 3.6458333333333335vw;
       font-family: "PoppinsB";
       color: $bgColor;
-      margin-bottom:50px;
+      margin-bottom: 2.6041666666666665vw;
     }
     .quote {
       @include flex(row, center, center, center);
       .qL {
-        margin: -225px 40px 0 0;
+        margin: -11.71875vw 2.0833333333333335vw 0 0;
         height: auto;
-        width: 85px;
+        width: 4.427083333333333vw;
       }
       .qR {
-        margin: 225px  0 0 40px;
+        margin: 11.71875vw 0 0 2.0833333333333335vw;
         height: auto;
-        width: 85px;
+        width: 4.427083333333333vw;
       }
       .qContent {
         display: flex;
@@ -150,16 +150,16 @@ body {
         .para {
           text-align: center;
           color: $bgColor;
-          font-size: 24px;
+          font-size: 1.25vw;
           font-family: "PoppinsI";
         }
         .person {
           display: flex;
           justify-content: flex-end;
           color: $bgColor;
-          font-size: 18px;
+          font-size: 0.9375vw;
           font-family: "PoppinsB";
-          margin-top: 10px;
+          margin-top: 0.5208333333333334vw;
         }
       }
     }
