@@ -1,1 +1,11 @@
-/*Style*/
+//Screen 1680px
+@media screen and (max-width: 1680px) {
+  #hero {
+    .content {
+      top: 45%;
+    }
+    .heroQuote {
+      top: 120%;
+    }
+  }
+}

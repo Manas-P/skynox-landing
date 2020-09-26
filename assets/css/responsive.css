@@ -1,2 +1,9 @@
-/*Style*/
+@media screen and (max-width: 1680px) {
+  #hero .content {
+    top: 45%;
+  }
+  #hero .heroQuote {
+    top: 120%;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
