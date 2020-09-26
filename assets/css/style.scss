@@ -29,6 +29,15 @@ $black: #312f2f;
     }
   }
 }
+//Service Section SVGs
+@mixin serviceSvg($width, $left, $right, $top) {
+  width: $width;
+  height: auto;
+  position: absolute;
+  left: $left;
+  right: $right;
+  padding-top: $top;
+}
 
 //Fonts
 @font-face {
@@ -204,13 +213,14 @@ body {
 
 .service {
   img:nth-child(1) {
-    width: 75px;
-    height: auto;
-    position: absolute;
-    right: 20%;
-    margin-top: 10px;
-    @include animate(10px, 25px);
-    animation: interaction ease-in-out 2.5s infinite;
+    @include serviceSvg(75px, none, 20%, 10px);
+    @include animate(10px, 20px);
+    animation: interaction ease-in-out 3s infinite;
+  }
+  img:nth-child(2) {
+    @include serviceSvg(125px, 15%, none, 200px);
+    @include animate(10px, 50px);
+    animation: interaction ease-in-out 3.5s infinite;
   }
   .content {
     padding: 200px 0 200px 0;
