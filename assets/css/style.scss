@@ -217,3 +217,35 @@ body {
     }
   }
 }
+
+#astro {
+  .contents {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 500px;
+    .heading {
+      color: $bgColor;
+      font-family: "PoppinsB";
+      font-size: 3.6458333333333335vw;
+    }
+    .paragraph {
+      color: $bgColor;
+      font-family: "PoppinsR";
+      font-size: 1.25vw;
+      padding: 30px 75px 50px 75px;
+      line-height: 35px;
+      opacity: 80%;
+    }
+    button {
+      @include button(
+        $black,
+        $bgColor,
+        rgba(0, 0, 0, 0.15),
+        rgb(240, 241, 255)
+      );
+    }
+  }
+}

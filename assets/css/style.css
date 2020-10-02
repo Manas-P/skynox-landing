@@ -411,8 +411,8 @@ body {
 }
 
 .service .content button {
-  height: 3.90625vw;
-  padding: 0 2.34375vw 0 2.34375vw;
+  height: 3.9vw;
+  padding: 0 2.7vw 0 2.7vw;
   color: #fcfafa;
   background: #f9637c;
   -webkit-box-shadow: 0px 0.3125vw 0.78125vw rgba(249, 99, 124, 0.47);
@@ -434,5 +434,55 @@ body {
   -webkit-box-shadow: none;
           box-shadow: none;
   background: #ff5370;
+}
+
+#astro .contents {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 500px;
+}
+
+#astro .contents .heading {
+  color: #fcfafa;
+  font-family: "PoppinsB";
+  font-size: 3.6458333333333335vw;
+}
+
+#astro .contents .paragraph {
+  color: #fcfafa;
+  font-family: "PoppinsR";
+  font-size: 1.25vw;
+  padding: 30px 75px 50px 75px;
+  line-height: 35px;
+  opacity: 80%;
+}
+
+#astro .contents button {
+  height: 3.9vw;
+  padding: 0 2.7vw 0 2.7vw;
+  color: #312f2f;
+  background: #fcfafa;
+  -webkit-box-shadow: 0px 0.3125vw 0.78125vw rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0.3125vw 0.78125vw rgba(0, 0, 0, 0.15);
+  border-radius: 1.0416666666666667vw;
+  border: none;
+  outline: none;
+  font-family: "PoppinsB";
+  font-size: 1.0416666666666667vw;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#astro .contents button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #f0f1ff;
 }
 /*# sourceMappingURL=style.css.map */
