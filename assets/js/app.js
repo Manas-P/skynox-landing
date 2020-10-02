@@ -1,10 +1,19 @@
 //Hero Animation
-var animation = bodymovin.loadAnimation({
-  container: document.getElementById("hero"),
+var heroAnimation = bodymovin.loadAnimation({
+  container: document.querySelector("#hero"),
   renderer: "svg",
   loop: true,
   autoplay: true,
   path: "./assets/animations/heroAnimationLight.json",
+});
+
+//How We Do Section Animation
+var astroAnimation = bodymovin.loadAnimation({
+  container: document.querySelector("#astro"),
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "./assets/animations/homeAstroAnimationLight.json",
 });
 
 //Header Sroll Active
