@@ -225,7 +225,7 @@ body {
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 500px;
+    margin-top: 26.041666666666668vw;
     .heading {
       color: $bgColor;
       font-family: "PoppinsB";
@@ -235,8 +235,8 @@ body {
       color: $bgColor;
       font-family: "PoppinsR";
       font-size: 1.25vw;
-      padding: 30px 75px 50px 75px;
-      line-height: 35px;
+      padding: 1.5625vw 3.90625vw 2.6041666666666665vw 3.90625vw;
+      line-height: 2.0833333333333335vw;
       opacity: 80%;
     }
     button {
@@ -244,7 +244,7 @@ body {
         $black,
         $bgColor,
         rgba(0, 0, 0, 0.15),
-        rgb(240, 241, 255)
+        rgb(255, 255, 255)
       );
     }
   }

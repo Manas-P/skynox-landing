@@ -443,7 +443,7 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  margin-top: 500px;
+  margin-top: 26.041666666666668vw;
 }
 
 #astro .contents .heading {
@@ -456,8 +456,8 @@ body {
   color: #fcfafa;
   font-family: "PoppinsR";
   font-size: 1.25vw;
-  padding: 30px 75px 50px 75px;
-  line-height: 35px;
+  padding: 1.5625vw 3.90625vw 2.6041666666666665vw 3.90625vw;
+  line-height: 2.0833333333333335vw;
   opacity: 80%;
 }
 
@@ -483,6 +483,6 @@ body {
           transform: scale(0.98);
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #f0f1ff;
+  background: white;
 }
 /*# sourceMappingURL=style.css.map */
