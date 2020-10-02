@@ -4,7 +4,7 @@ var animation = bodymovin.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "./assets/animations/heroAnimation.json",
+  path: "./assets/animations/heroAnimationLight.json",
 });
 
 //Header Sroll Active
