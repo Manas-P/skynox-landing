@@ -286,14 +286,14 @@ body {
       img {
         width: 95px;
         height: auto;
-        margin: 0 10px;
+        margin: 0 20px;
         opacity: 0.5;
         outline: none;
         cursor: pointer;
         transition: 0.5s ease;
         &.active {
           opacity: 1;
-          animation: slide 1s ease;
+          transform: scale(1.25);
         }
       }
     }
@@ -306,6 +306,7 @@ body {
         display: none;
         &.active {
           display: block;
+          animation: slide 1s ease;
         }
         p {
           font-size: 22px;

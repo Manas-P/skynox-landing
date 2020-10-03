@@ -543,7 +543,7 @@ body {
 .testimonials .container .slider-indicator img {
   width: 95px;
   height: auto;
-  margin: 0 10px;
+  margin: 0 20px;
   opacity: 0.5;
   outline: none;
   cursor: pointer;
@@ -553,8 +553,8 @@ body {
 
 .testimonials .container .slider-indicator img.active {
   opacity: 1;
-  -webkit-animation: slide 1s ease;
-          animation: slide 1s ease;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .testimonials .container .slider {
@@ -570,6 +570,8 @@ body {
 
 .testimonials .container .slider .slide.active {
   display: block;
+  -webkit-animation: slide 1s ease;
+          animation: slide 1s ease;
 }
 
 .testimonials .container .slider .slide p {
