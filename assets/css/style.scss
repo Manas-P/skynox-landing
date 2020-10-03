@@ -268,20 +268,24 @@ body {
 .testimonials {
   min-height: 100vh;
   background-color: $bgColor;
-  padding-top: 275px;
+  padding-top: 14.322916666666666vw;
   .container {
     max-width: 100vw;
     margin: auto;
     .quotes {
       .lq {
         position: absolute;
-        margin-left: 400px;
-        margin-top: 300px;
+        margin-left: 20.833333333333332vw;
+        margin-top: 15.625vw;
+        width: 4.427083333333333vw;
+        height: auto;
       }
       .rq {
         position: absolute;
-        margin-left: 1400px;
-        margin-top: 550px;
+        margin-left: 72.91666666666667vw;
+        margin-top: 28.645833333333332vw;
+        width: 4.427083333333333vw;
+        height: auto;
       }
     }
     .title {
@@ -292,14 +296,15 @@ body {
       text-align: center;
     }
     .slider-indicator {
-      padding: 50px 0 75px 0;
+      padding: 2.6041666666666665vw 0 3.90625vw 0;
       text-align-last: center;
       img {
-        width: 95px;
+        width: 4.947916666666667vw;
         height: auto;
-        margin: 0 30px;
+        margin: 0 1.5625vw;
         opacity: 0.5;
         outline: none;
+        border-radius: 100%;
         cursor: pointer;
         transition: 0.3s ease;
         &.active {
@@ -312,7 +317,7 @@ body {
       max-width: 41vw;
       margin: auto;
       text-align: center;
-      padding: 30px;
+      padding: 1.5625vw;
       .slide {
         display: none;
         &.active {
@@ -320,21 +325,21 @@ body {
           animation: slide 1s ease;
         }
         p {
-          font-size: 22px;
+          font-size: 1.1458333333333333vw;
           color: #60695c;
           font-family: "PoppinsI";
         }
         .client-info {
-          margin: 30px 0;
+          margin: 1.5625vw 0;
           .name {
-            font-size: 18px;
+            font-size: 0.9375vw;
             color: $black;
             font-family: "PoppinsB";
-            margin: 5px 0;
+            margin: 0.2604166666666667vw 0;
           }
           span {
             display: block;
-            font-size: 12px;
+            font-size: 0.625vw;
             color: #60695c;
           }
         }
