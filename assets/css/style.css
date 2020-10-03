@@ -46,26 +46,18 @@
 @-webkit-keyframes slide {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
   }
 }
 
 @keyframes slide {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
   }
 }
 
@@ -520,11 +512,11 @@ body {
 .testimonials {
   min-height: 100vh;
   background-color: #fcfafa;
-  padding-top: 300px;
+  padding-top: 275px;
 }
 
 .testimonials .container {
-  max-width: 1000px;
+  max-width: 100vw;
   margin: auto;
 }
 
@@ -533,32 +525,33 @@ body {
   font-size: 3.6458333333333335vw;
   font-family: "PoppinsB";
   margin: 0;
+  text-align: center;
 }
 
 .testimonials .container .slider-indicator {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 75px 0;
   text-align-last: center;
 }
 
 .testimonials .container .slider-indicator img {
   width: 95px;
   height: auto;
-  margin: 0 20px;
+  margin: 0 30px;
   opacity: 0.5;
   outline: none;
   cursor: pointer;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .testimonials .container .slider-indicator img.active {
   opacity: 1;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .testimonials .container .slider {
-  max-width: 600px;
+  max-width: 41vw;
   margin: auto;
   text-align: center;
   padding: 30px;
@@ -580,11 +573,15 @@ body {
   font-family: "PoppinsI";
 }
 
+.testimonials .container .slider .slide .client-info {
+  margin: 30px 0;
+}
+
 .testimonials .container .slider .slide .client-info .name {
   font-size: 18px;
   color: #312f2f;
   font-family: "PoppinsB";
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .testimonials .container .slider .slide .client-info span {
