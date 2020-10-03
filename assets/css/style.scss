@@ -21,6 +21,11 @@ $black: #312f2f;
 }
 
 @font-face {
+  font-family: "PoppinsI";
+  src: url(../fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
   font-family: "PoppinsM";
   src: url(../fonts/Poppins-Medium.ttf);
 }
@@ -48,6 +53,18 @@ $black: #312f2f;
 @font-face {
   font-family: "PoppinsSB";
   src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+//Slider Animation
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 //Basic Layout
@@ -246,6 +263,69 @@ body {
         rgba(0, 0, 0, 0.15),
         rgb(255, 255, 255)
       );
+    }
+  }
+}
+
+.testimonials {
+  min-height: 100vh;
+  background-color: $bgColor;
+  padding-top: 300px;
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    .title {
+      color: $black;
+      font-size: 3.6458333333333335vw;
+      font-family: "PoppinsB";
+      margin: 0;
+    }
+    .slider-indicator {
+      padding: 50px 0 50px 0;
+      text-align-last: center;
+      img {
+        width: 95px;
+        height: auto;
+        margin: 0 10px;
+        opacity: 0.5;
+        outline: none;
+        cursor: pointer;
+        transition: 0.5s ease;
+        &.active {
+          opacity: 1;
+          animation: slide 1s ease;
+        }
+      }
+    }
+    .slider {
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      padding: 30px;
+      .slide {
+        display: none;
+        &.active {
+          display: block;
+        }
+        p {
+          font-size: 22px;
+          color: #60695c;
+          font-family: "PoppinsI";
+        }
+        .client-info {
+          .name {
+            font-size: 18px;
+            color: $black;
+            font-family: "PoppinsB";
+            margin: 10px 0;
+          }
+          span {
+            display: block;
+            font-size: 12px;
+            color: #60695c;
+          }
+        }
+      }
     }
   }
 }
