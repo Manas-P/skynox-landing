@@ -520,6 +520,18 @@ body {
   margin: auto;
 }
 
+.testimonials .container .quotes .lq {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 300px;
+}
+
+.testimonials .container .quotes .rq {
+  position: absolute;
+  margin-left: 1400px;
+  margin-top: 550px;
+}
+
 .testimonials .container .title {
   color: #312f2f;
   font-size: 3.6458333333333335vw;

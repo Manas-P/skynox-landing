@@ -272,6 +272,18 @@ body {
   .container {
     max-width: 100vw;
     margin: auto;
+    .quotes {
+      .lq {
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 300px;
+      }
+      .rq {
+        position: absolute;
+        margin-left: 1400px;
+        margin-top: 550px;
+      }
+    }
     .title {
       color: $black;
       font-size: 3.6458333333333335vw;
