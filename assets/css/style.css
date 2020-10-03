@@ -399,6 +399,32 @@ body {
   }
 }
 
+.service img:nth-child(4) {
+  width: 20.83333vw;
+  height: auto;
+  position: absolute;
+  left: -7.8125vw;
+  right: none;
+  padding-top: 39.0625vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.service img:nth-child(5) {
+  width: 4.16667vw;
+  height: auto;
+  position: absolute;
+  left: none;
+  right: 5.20833vw;
+  padding-top: 57.29167vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .service .content {
   padding: 10.5vw 0 15.5vw 0;
   display: -webkit-box;

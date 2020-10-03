@@ -212,6 +212,17 @@ body {
     @include animate(0.5208333333333334vw, 2.6041666666666665vw);
     animation: interaction ease-in-out 4s infinite;
   }
+  img:nth-child(4) {
+    @include serviceSvg(20.833333333333332vw, -7.8125vw, none, 39.0625vw);
+  }
+  img:nth-child(5) {
+    @include serviceSvg(
+      4.166666666666667vw,
+      none,
+      5.208333333333333vw,
+      57.291666666666664vw
+    );
+  }
   .content {
     padding: 10.5vw 0 15.5vw 0;
     @include flex(column, center, center, center);
